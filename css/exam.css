@@ -7,16 +7,19 @@
     top: -100px;
 }
 
+.skip:focus {
+    top: 20px;
+}
+
 .gallery {
     width: 85%;
     display: grid;
     justify-content: center;
     background-color: #ffffff;
-    grid-template-columns: 1fr 1fr 1fr;
-    column-width: 24%;
-
+    grid-template-columns: repeat(1fr, 24%);
+    column-gap: 100px;
 }
 
 .gallery img {
-    border: 5px solid orange;
+    border: 5px dashed orange;
 }
