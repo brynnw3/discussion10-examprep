@@ -1,2 +1,22 @@
 /* The first line of your stylesheet **must** be your first name and your GSI. Add your name and GSI's name as a comment! */
 
+/* The first line of your stylesheet **must** be your first name and your GSI. Add your name and GSI's name as a comment! */
+
+.skip {
+    position: absolute;
+    top: -100px;
+}
+
+.gallery {
+    width: 85%;
+    display: grid;
+    justify-content: center;
+    background-color: #ffffff;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-width: 24%;
+
+}
+
+.gallery img {
+    border: 5px solid orange;
+}
